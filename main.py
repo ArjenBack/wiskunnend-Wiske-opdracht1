@@ -87,5 +87,4 @@ print(fsum(totalQuestionCount)/len(totalQuestionCount))
 #showing the plot of the simulation
 count = Counter(totalQuestionCount)
 plt.plot(count.keys(), count.values())
-plt.plot([fsum(totalQuestionCount)/len(totalQuestionCount)])
 plt.show()
